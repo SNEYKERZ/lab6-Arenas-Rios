@@ -1,0 +1,118 @@
+--Insercción de datos--
+INSERT into subcontractor (s_lname, s_fname, salary) 
+VALUES 
+  ('Lacy', 'Peck',1169491),
+  ('Nola', 'Robertson',1584648),
+  ('Coby', 'Mccray',3076103),
+  ('Nathaniel', 'Richmond',695292),
+  ('Xander', 'Paul',573189),
+  ('Clare', 'Day',3865605),
+  ('Rosalyn', 'Flynn',1016004),
+  ('Gail', 'Campbell',618314),
+  ('Kitra', 'William',673147),
+  ('Simone', 'Blankenship',2156181),
+  ('Renee', 'Leach',4240982),
+  ('Ivory', 'Foster',2120835),
+  ('Christopher', 'Alvarado',3528841),
+  ('Noah', 'Howell',4483196),
+  ('Sylvester', 'Craft',747335),
+  ('Jacqueline', 'Pennington',2628616),
+  ('Allen', 'Rojas',4305631),
+  ('Anika', 'Cote',640168),
+  ('Mari', 'Conner',576530),
+  ('Reed', 'Becker',3025262);
+  
+INSERT into builder (b_fname, b_lname, license) 
+VALUES
+  ('Channing', 'Hebert','libero'),
+  ('Fallon', 'Horne','Nullam'),
+  ('Chaney', 'Huff','magnis'),
+  ('Keiko', 'Jefferson','mattis'),
+  ('Eliana', 'Hurley','dolor,'),
+  ('Ashely', 'Marquez','eu'),
+  ('Hedley', 'Pate','tortor'),
+  ('Jenette', 'Pollard','ridiculus'),
+  ('Linus', 'Lawrence','gravida'),
+  ('Tamara', 'Bond','nunc'),
+  ('Ifeoma', 'Knowles','imperdiet'),
+  ('Zephania', 'Drake','dolor'),
+  ('Armand', 'Medina','ipsum'),
+  ('Hashim', 'Osborn','luctus'),
+  ('Jackson', 'Gay','metus'),
+  ('Orla', 'Oliver','nulla.'),
+  ('Simon', 'Hensley','nunc'),
+  ('Trevor', 'Solis','tellus.'),
+  ('Lunea', 'Lindsey','eros'),
+  ('Keane', 'Mills','Cras');
+  
+INSERT into neighborhood (n_name, city) 
+values 
+  ('Zamorano', 'Palmira'),
+  ('Loreto', 'Palmira'),
+  ('Bizerta', 'Palmira'),
+  ('San Pedro', 'Palmira'),
+  ('Primero de Mayo', 'Palmira'),
+  ('El Sembrador', 'Palmira'),
+  ('San Cayetano', 'Cali'),
+  ('Centenario', 'Cali'),
+  ('La Merced', 'Cali'),
+  ('Meléndez', 'Cali'),
+  ('Popular', 'Cali'),
+  ('Siloé', 'Cali'),
+  ('Villanueva', 'Cali');
+
+/*Aun no se como poner estos por lo que dice la documentación*/
+insert into hireinfo 
+values 
+  (1, 1, '2020-11-10'),
+  (2, 1, '2018-03-04'),
+  (3, 2, '2018-02-24'),
+  (4, 3, '2017-01-13'),
+  (5, 2, '2017-04-24'),
+  (6, 17, '2018-08-01'),
+  (7, 4, '2020-11-17'),
+  (8, 5, '2017-05-18'),
+  (9, 17, '2022-09-23'),
+  (10, 10, '2022-03-02'),
+  (11, 7, '2020-06-12'),
+  (12, 6, '2022-07-08'),
+  (13, 18, '2021-03-29'),
+  (14, 9, '2020-03-11'),
+  (15, 20, '2018-09-27'),
+  (16, 15, '2019-10-27'),
+  (17, 15, '2017-07-22'),
+  (18, 13, '2017-01-28'),
+  (19, 8, '2022-08-29'),
+  (20, 15, '2017-12-14');
+
+
+INSERT into house (h_name, finishdate, price, bid, nid)
+VALUES 
+  ('Nova', '2022-08-29', 2000000, 1, 1), 
+  ('Nova', '2021-02-09', 1602000, 20, 5), 
+  ('Nova', '2023-12-10', 2000300, 8, 3),
+  ('Nova', '2025-01-20', 2300400, 17, 7),
+  ('Nova', '2026-05-23', 1989894, 3, 12),
+  ('Nova', '2022-11-05', 2345678, 14, 13),
+  (NULL, NULL, NULL, 12, NULL),
+  ('El cañaduzal','2025-07-11', 1520599, 10, 4),
+  ('El cañaduzal','2025-07-23',972111, 16, 5),
+  ('El cañaduzal','2024-03-18',1197914, 4, 1),
+  (NULL, NULL, NULL, 6, NULL),
+  ('Roodepoort','2023-03-16',1195185,19,10),
+  ('Lagos','2025-07-23',972111,15,9),
+  ('Oleksandriia','2024-03-18',1197914,3,12),
+  ('Wals-Siezenheim','2025-06-17',1146259,4,5),
+  ('Piła','2026-11-26',1160483,10,11),
+  ('Nordhorn','2024-12-09',1079194,1,12),
+  ('Landshut','2025-04-19',1108770,16,12),
+  ('Dera Ghazi Khan','2026-06-25',1500634,4,4),
+  ('Quezon City','2023-11-01',1838760,17,6),
+  ('Köflach','2026-11-29',1446241,15,4),
+  ('Ghotki','2024-01-11',1760505,15,4),
+  ('Koronadal','2026-06-09',1861480,3,1),
+  ('Gliwice','2026-06-17',1045014,4,12),
+  ('Kirkland','2023-10-18',1942041,13,13),
+  ('Langford','2024-11-20',1749169,3,8),
+  ('Crato','2026-09-10',1236663,8,8),
+  ('Contulmo','2025-06-02',1581969,7,8); 
